@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <TextView 
+    		android:id="@+id/textView4"
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent"
+    		android:gravity="center"
+    		android:text="Accelerometer Information"
+    		style="@style/bigTitle">
+    </TextView>
+    
+    <LinearLayout 
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent" 
+    		android:id="@+id/linearLayout1">
+    		
+        <TextView 
+        		android:id="@+id/textView1"
+        		android:layout_height="wrap_content" 
+        		android:layout_width="wrap_content" 
+        		android:text="@string/xAxisLabel">
+        </TextView>
+        
+        <TextView 
+        		android:id="@+id/xAxisValue"
+        		android:layout_height="wrap_content" 
+        		android:layout_width="wrap_content" 
+        		android:text="0.0">
+        </TextView>
+    </LinearLayout>
+    <SeekBar 
+    		android:id="@+id/xAxisBar"
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent">
+    </SeekBar>
+    
+    <LinearLayout 
+    		android:id="@+id/linearLayout2"
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent"
+    		>
+        
+        <TextView 
+        		android:id="@+id/textView2"
+        		android:layout_height="wrap_content"
+        		android:layout_width="wrap_content"
+        		android:text="@string/yAxisLabel">
+        </TextView>
+        
+        <TextView 
+        		android:id="@+id/yAxisValue"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="0.0">
+        </TextView>
+    </LinearLayout>
+    <SeekBar 
+    		android:id="@+id/yAxisBar"
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent">
+    </SeekBar>
+    
+    <LinearLayout 
+    		android:id="@+id/linearLayout3"
+    		android:layout_height="wrap_content"
+    		android:layout_width="fill_parent">
+        
+        <TextView 
+        		android:id="@+id/textView3"
+        		android:layout_height="wrap_content" 
+        		android:layout_width="wrap_content"
+        		android:text="@string/zAxisLabel">
+        </TextView>
+        
+        <TextView 
+        		android:id="@+id/zAxisValue"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="0.0">
+        </TextView>
+    </LinearLayout>
+    <SeekBar 
+    		android:id="@+id/zAxisBar"
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent">
+    </SeekBar>
+    
+    <TextView 
+    		android:id="@+id/textView5" 
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent" 
+    		android:gravity="center"
+    		android:text="Delay Rate:"
+    		style="@style/littleTitle">
+    </TextView>
+    <Spinner 
+    		android:id="@+id/delayRateChooser" 
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent" 
+    		android:prompt="@string/delay_rate_spinner_prompt">
+   	</Spinner>
+</LinearLayout>

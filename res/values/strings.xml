@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AccelerometerInfo</string>
+    <string name="xAxisLabel">X: </string>
+    <string name="yAxisLabel">Y: </string>
+    <string name="zAxisLabel">Z: </string>
+    <string name="delay_rate_spinner_prompt">Choose a delay rate</string>
+</resources>
